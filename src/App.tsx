@@ -7,6 +7,10 @@ import budgetQuestCert from "./assets/budgetQuestCert.png";
 import ecommerceImg from './assets/ecommerce-project.jpg';
 import pythonCert from './assets/python-cert.jpg';
 import yuvaAICert from "./assets/yuvaAIcert.jpg";
+import designImg from "./assets/Design.jpg";
+import enrolledImg from "./assets/enrolled.jpg";
+import pythonImg from "./assets/python.jpg";
+import mernImg from "./assets/mern.jpg";
 import webLor from "./assets/web-lor.pdf";
 import webAppreciation from "./assets/web-appreciation.pdf";
 import webCert from './assets/web-cert.jpg';
@@ -359,7 +363,7 @@ export default function App() {
       institute: "STP Computer Education", 
       duration: "May 2024- May 2025", 
       location: "Patel Nagar,New Delhi, 110008",
-      score: "87%",
+      score: "80%",
       details: " Completed a 12-month Web Development Diploma from STP Computer Education, New Delhi. Learned core web technologies including HTML, CSS, JavaScript, and basic backend development, with a focus on building responsive and user-friendly websites. Successfully completed the program with an A Grade. ",
       courses: ["HTML", "CSS", "JavaScript"],
       status: "Completed",
@@ -400,7 +404,7 @@ export default function App() {
       company: "Shashi Infotech",
       duration: "45 Days",
       description: "Developed a Hospital Management System using Django, HTML, and CSS. Implemented authentication, appointment scheduling, patient records, and billing management with role-based access control. Designed a responsive UI and managed backend operations using Django ORM following the MVT architecture.",
-      image: "https://picsum.photos/seed/shashi/100/100",
+      image: pythonImg,
       tags: ["#python", "#django", "#html", "#css", "#mvt"]
     },
     {
@@ -408,15 +412,15 @@ export default function App() {
       company: "OASIS INFOBYTE",
       duration: "30 Days",
       description: "Successfully completed a 30-day remote internship in Web Development and Designing. During this internship, I worked on creating responsive web interfaces, implementing backend functionalities, and optimizing user experience. I gained practical exposure to modern web technologies, project structuring, debugging, and deployment practices while collaborating in a remote working environment.",
-      image: "https://picsum.photos/seed/oasis/100/100",
+      image: designImg,
       tags: ["#webdesign", "#frontend", "#javascript", "#responsive"]
     },
     {
       role: "MERN STACK DEVELOPER",
       company: "MERN STACK",
-      duration: "DEC 2025 - PRESENT",
+      duration: "Jan 2026 - PRESENT",
       description: "MERN Stack Developer with hands-on experience in building full-stack web applications using MongoDB, Express.js, React.js, and Node.js. Skilled in developing responsive user interfaces, RESTful APIs, authentication systems, and scalable backend solutions.",
-      image: "https://picsum.photos/seed/mern/100/100",
+      image: mernImg,
       tags: ["#mongodb", "#express", "#react", "#nodejs", "#mern"]
     }
   ];
@@ -440,7 +444,7 @@ export default function App() {
     { 
       title: "MERN STACK", 
       issuer: "SB WEBCARE (Onsite)", 
-      image: "appearing", 
+      image: enrolledImg, 
       date: "Appearing • 45 Days",
       description: "Currently learning MongoDB, Express, React, Node.js with real-time full stack project development."
     },
@@ -1385,7 +1389,9 @@ export default function App() {
                   </div>
                 </div>
                 <h3 className="text-xl font-bold mb-1.5">Website</h3>
-                <p className="text-secondary mb-6 font-medium text-base">Niraj portfolio</p>
+                <p className="text-secondary mb-6 font-medium text-base">Niraj portfolio
+                  
+                </p>
               </Card>
             </motion.div>
 
